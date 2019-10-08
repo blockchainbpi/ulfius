@@ -44,6 +44,10 @@
 #define STR_HELPER(x) #x
 #define STR(x) STR_HELPER(x)
 
+#ifdef __APPLE__
+    #define MSG_NOSIGNAL      0x2000
+#endif
+
 /**********************************/
 /** Internal websocket functions **/
 /**********************************/
