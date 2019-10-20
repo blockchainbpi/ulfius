@@ -60,9 +60,9 @@ For example, to install all the external dependencies on Debian Stretch, run as 
 Download Orcania, Yder and Ulfius source code from Github, compile and install Orcania, then Yder, then compile and install ulfius:
 
 ```shell
- git clone https://github.com/babelouest/orcania.git
- git clone https://github.com/babelouest/yder.git
- git clone https://github.com/babelouest/ulfius.git
+ git clone https://github.com/blockchainbpi/orcania.git
+ git clone https://github.com/blockchainbpi/yder.git
+ git clone https://github.com/blockchainbpi/ulfius.git
  cd orcania/
  make && sudo make install
  cd ../yder/
